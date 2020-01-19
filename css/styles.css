@@ -1,0 +1,121 @@
+:root {
+    --main-bg-color:  rgb(243, 242, 242);
+    --secondary-bg-color: rgb(247, 247, 247);
+    --main-font: Comfortaa;
+    --main-font-color: rgb(108, 108, 108);
+    --secondary-font-color:  rgb(200, 200, 200);
+    --accent-font:  Kaushan Script;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    font-family: var(--main-font), sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.container,
+header,
+nav,
+main,
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+#portfolio {
+    background-color: var(--secondary-bg-color);
+}
+
+#portfolio h2,
+nav ul {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 900;
+    list-style-type: none;
+    padding-inline-start: 0em;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 3em;
+}
+
+nav ul li {
+    margin: 2%;
+    min-width: 90%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+article p,
+section p {
+    display: block;
+    width: 85%;
+    line-height: 1.5em;
+}
+
+#contact {
+    padding-top: 50px;
+}
+
+#contact h2 {
+    font-size: .8em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+a:link,
+a:visited {
+    color: var(--main-font-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    min-height: 100px;
+    border-top: 2px solid var(--secondary-font-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bottom-nav {
+    width: 100%;
+}
+
+.bottom-nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    font-weight: 900;
+}
+
