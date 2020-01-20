@@ -203,4 +203,47 @@ footer {
        display: block;
        font-size: 0.8em;
    }
+
+   
+   #contact p:first-of-type {
+        display: block;
+        max-width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+    header {
+        min-width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        max-width: 40%;
+    }
+
+    #portfolio {
+        padding-top: 3%;
+    }
+    #portfolio article {
+        max-width: 30%;
+        min-height: 450px;
+    }
+
+    #intro {
+        justify-content: space-between;
+        align-items: flex-start;
+        min-width: 95%;
+    }
+
+    #intro p {
+        display: block;
+        max-width: 50%;
+    }
+    
+    #intro img {
+        padding-right: 5%;
+    }
 }
