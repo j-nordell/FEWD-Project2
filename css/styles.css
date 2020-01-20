@@ -39,7 +39,6 @@ nav ul {
     font-size: 1em;
     font-weight: 900;
     list-style-type: none;
-    padding-inline-start: 0em;
     min-width: 100%;
     display: flex;
     flex-direction: column;
