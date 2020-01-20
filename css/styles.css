@@ -5,7 +5,7 @@
     --main-font-color: rgb(108, 108, 108);
     --secondary-font-color:  #c8c8c8;
     --accent-font:  Kaushan Script;
-    --accent-color: rgb(52, 118, 216);
+    --accent-color: rgb(253, 165, 33);
 }
 
 body {
@@ -94,15 +94,13 @@ section p {
 
 a:link,
 a:visited {
-    padding: 7px;
     color: var(--main-font-color);
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
-    box-shadow: 0 5px 15px var(--accent-color);
-    border-radius: 15px;
+    color: var(--accent-color);
 }
 
 #skills {
@@ -215,7 +213,7 @@ footer {
 
 
    .bottom-nav ul {
-       min-width: 30%;
+       min-width: 45%;
        display: flex;
        flex-direction: row;
        justify-content: space-evenly;
@@ -287,6 +285,6 @@ footer {
     }
 
     nav ul li {
-        background-color: var(--main-bg-color);
+        background-color: var(--secondary-font-color);
     }
 }
