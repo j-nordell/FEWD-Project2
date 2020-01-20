@@ -255,4 +255,8 @@ footer {
         --main-font-color: rgb(147, 147, 147);
         --secondary-font-color:  rgb(55, 55, 55);
     }
+
+    nav ul li {
+        background-color: var(--secondary-font-color);
+    }
 }
