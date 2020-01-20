@@ -107,10 +107,6 @@ footer {
 
 .bottom-nav {
     width: 100%;
-}
-
-.bottom-nav ul {
-    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,3 +115,92 @@ footer {
     font-weight: 900;
 }
 
+.bottom-nav ul {
+    list-style-type: none;
+}
+
+.home,
+.portfolio,
+.contact {
+    display: none;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 760px) {
+    header {
+        max-width: 50%;
+    }
+    header h1 {
+        margin-top: 50px;
+    }
+
+    nav ul {
+       width: 500px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-evenly;
+   }
+
+   nav ul li {
+      margin: 0px;
+      min-width: 20%;
+      background-color: var(--main-bg-color);
+   }
+
+   #intro {
+       text-align: left;
+       display: flex;
+       flex-direction: row-reverse;
+       margin: 50px 0px;
+   }
+   #intro p {
+       padding: 2%;
+   }
+
+   #portfolio {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+
+   #portfolio article {
+       max-width: 40%;
+       min-height: 450px;
+   }
+
+   img {
+       margin: 0px;
+   }
+
+   footer {
+       width: 95%;
+       height: 200px;
+       justify-content: flex-start;
+   }
+
+   .bottom-nav {
+       width: 100%;
+   }
+
+
+   .bottom-nav ul {
+       min-width: 50%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+   }
+   .bottom-nav .back {
+       display: none;
+   }
+
+   .home,
+   .portfolio,
+   .contact,
+   .name {
+       padding-top: 25px;
+       display: block;
+       font-size: 0.8em;
+   }
+}
