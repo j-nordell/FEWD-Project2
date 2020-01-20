@@ -7,6 +7,17 @@
     --accent-font:  Kaushan Script;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color:  rgb(12, 12, 12);
+        --secondary-bg-color: rgb(8, 8, 8);
+        --main-font: Comfortaa;
+        --main-font-color: rgb(147, 147, 147);
+        --secondary-font-color:  rgb(55, 55, 55);
+        --accent-font:  Kaushan Script;
+    }
+}
+
 body {
     background-color: var(--main-bg-color);
     color: var(--main-font-color);
