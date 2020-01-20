@@ -3,8 +3,9 @@
     --secondary-bg-color: rgb(247, 247, 247);
     --main-font: Comfortaa;
     --main-font-color: rgb(108, 108, 108);
-    --secondary-font-color:  rgb(200, 200, 200);
+    --secondary-font-color:  #c8c8c8;
     --accent-font:  Kaushan Script;
+    --accent-color: rgb(52, 118, 216);
 }
 
 body {
@@ -27,6 +28,12 @@ section {
     align-items: center;
     width: 100%;
     text-align: center;
+}
+
+h1,
+.name,
+#skills h3 {
+    font-family: var(--accent-font), cursive;
 }
 
 #portfolio {
@@ -87,9 +94,23 @@ section p {
 
 a:link,
 a:visited {
+    padding: 7px;
     color: var(--main-font-color);
     font-weight: bold;
     text-decoration: none;
+}
+
+a:hover {
+    box-shadow: 0 5px 15px var(--accent-color);
+    border-radius: 15px;
+}
+
+#skills {
+    background-color: var(--secondary-bg-color);
+}
+
+#skills article ul {
+    text-align: left;
 }
 
 footer {
@@ -120,6 +141,7 @@ footer {
 
 .home,
 .portfolio,
+.skills,
 .contact {
     display: none;
     text-transform: uppercase;
@@ -173,6 +195,14 @@ footer {
        margin: 0px;
    }
 
+   #skills {
+       margin-top: 10px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       align-items: flex-start;
+   }
+
    footer {
        width: 95%;
        height: 200px;
@@ -197,6 +227,7 @@ footer {
    .home,
    .portfolio,
    .contact,
+   .skills,
    .name {
        padding-top: 25px;
        display: block;
