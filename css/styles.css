@@ -54,6 +54,10 @@ nav ul {
     line-height: 3em;
 }
 
+nav ul {
+    box-sizing: border-box;
+}
+
 nav ul li {
     margin: 2%;
     min-width: 90%;
