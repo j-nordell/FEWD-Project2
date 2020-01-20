@@ -18,7 +18,7 @@
     - [x] The design does not need to be exact, but the general spacing and arrangement of the elements should match the design of the mockups for mobile, tablet and desktop.
     * Feel free to replace the profile image and customize the text, but the layouts should match the mockups.
 - [x] Link your navigation menu to the correct sections of the page using IDs to link to anchor tags. See this video on Linking to Sections of a Web Page.
-- [ ] Make sure to check your code is valid by running it through an HTML and CSS validator.
+- [x] Make sure to check your code is valid by running it through an HTML and CSS validator.
     * Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.
     There are a few exceptions that you don’t need to fix:
         * Don’t worry about any warnings, we just need you to check any errors that might be there.
@@ -27,10 +27,10 @@
 
 ## Extra Credit
 
-- [ ] Add an additional section to the page, such as a skills section. Don’t forget to create a working link to your new section in the navigation menu.
-- [ ] Add at least TWO additional items to to further style and enhance the portfolio:
-    - [ ] A new background color for the navigation and/or main sections of the site.
+- [x] Add an additional section to the page, such as a skills section. Don’t forget to create a working link to your new section in the navigation menu.
+- [x] Add at least TWO additional items to to further style and enhance the portfolio:
+    - [xs] A new background color for the navigation and/or main sections of the site.
     - [ ] Change the color of at least one piece of text.
-    - [ ] Add one additional google font that is being used on the page.
-    - [ ] Any additional styling for links (ie, borders, hover states).
-- [ ] When creating your navigation bar, use the HTML5 <nav> element for extra structure and semantic markup.
+    - [x] Add one additional google font that is being used on the page.
+    - [x] Any additional styling for links (ie, borders, hover states).
+- [x] When creating your navigation bar, use the HTML5 <nav> element for extra structure and semantic markup.
